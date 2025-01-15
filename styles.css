@@ -1,0 +1,40 @@
+body{
+  background-color: lightblue;
+}
+header{
+  color: maroon;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav{ 
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 5px;
+
+}
+
+a{
+  text-decoration: none;
+  color: maroon;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+img{
+  height: 250px;
+  width: 250px;
+  display: flex;
+  border: 5px solid maroon;
+}
+
+p{
+  border: 7px solid maroon;
+  /* background-color: white; */
+}
